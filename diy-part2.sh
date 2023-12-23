@@ -15,4 +15,4 @@
 
 # Load custom config file (mtwifi-cfg)
 # Current path is in openwrt
-cp -f defconfig/mt7981-ax3000-mtwifi-cfg.config .config
+cp -f defconfig/mt7981-ax3000.config .config
