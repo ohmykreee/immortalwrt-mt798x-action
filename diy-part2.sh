@@ -12,3 +12,6 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+# Load custom config file (mtwifi-cfg)
+cp -f openwrt/defconfig/mt7981-ax3000-mtwifi-cfg.config openwrt/.config
