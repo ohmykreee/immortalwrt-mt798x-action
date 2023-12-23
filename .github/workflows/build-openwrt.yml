@@ -177,7 +177,7 @@ jobs:
         body_path: release.txt
         files: |
           ${{ env.FIRMWARE }}/*
-          .config
+          openwrt/.config
 
     # - name: Delete workflow runs
     #   uses: GitRML/delete-workflow-runs@main
