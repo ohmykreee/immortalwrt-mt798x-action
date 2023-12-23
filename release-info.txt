@@ -1,5 +1,3 @@
 
 Build target: CMCC RAX3000M 128M SPI-NAND (MT7981)
 Build flavor: with mtwifi-cfg
-
-Manually triggered build
