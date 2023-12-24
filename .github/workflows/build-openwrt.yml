@@ -136,6 +136,7 @@ jobs:
         touch release.txt
         echo "Build Profile: ${{ github.event.inputs.profile }}" >> release.txt
         [ -e release-info.txt ] && cat release-info.txt >> release.txt
+        echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v1
